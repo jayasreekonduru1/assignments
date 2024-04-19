@@ -1,0 +1,26 @@
+.container{
+    display: flex;
+    justify-content: left;
+    gap: 20px;
+    border: 2px solid lightslategray;
+    width: max-content;
+    padding: 20px;
+}
+div{
+    width: 150px;
+    height: 50px;
+}
+.block1{
+    background-color: lightcoral;
+    visibility: hidden;
+}
+.block2{
+    background-color: lightpink;
+}
+.block3{
+    background-color:lightsalmon;
+}
+p{
+    font-size: 20px;
+    font-weight: 600;
+}

@@ -1,0 +1,48 @@
+body{  
+    background-color: #482c0f;
+    text-align: center;
+    padding-top: 50px;
+}
+img{
+    border-radius: 50%;
+    margin-bottom: 50px;
+    
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f1eeee;
+    padding: 20px 0px;
+}
+div{
+    height: 200px;
+    width: 300px;
+}
+.container1{
+    background-image: url('../assets/sunflower.jpeg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+} 
+
+.container2{
+    background-image: url('../assets/lavender.jpeg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+} 
+
+.container3{
+    background-image: url('../assets/tulips.webp');
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+} 
+
+.container4{
+    background-image: url('../assets/flowers.jpeg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+} 

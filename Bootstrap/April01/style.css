@@ -1,0 +1,17 @@
+*{
+    box-sizing: border-box;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:40px 80px;
+    gap: 2rem;
+    width: 100vw;
+}
+section{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}

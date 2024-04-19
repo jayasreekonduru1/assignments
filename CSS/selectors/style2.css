@@ -1,0 +1,23 @@
+header{
+    background-color: brown;
+    color: #fff;
+    text-align: center;
+}
+nav ul li a{
+    text-decoration: none;
+    color: coral;
+    font-size: 22px;
+}
+section h2{
+    font-size: 30px;
+    color: darkslategray;
+}
+section p{
+    font-style: italic;
+}
+footer{
+    background-color: hotpink;
+}
+div ul {
+    background-color: salmon;
+}

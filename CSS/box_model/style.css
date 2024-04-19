@@ -1,0 +1,35 @@
+body{
+    width: 350px;
+    text-align: left;
+    font-size: 20px;
+    background-color: #272626;
+    margin-left: 600px;
+    margin-top: 200px;
+}
+
+.second{
+    border: 3px dashed #000;
+    padding: 5px;
+    background-color: #b78210;
+    
+}
+.third{
+    border: 3px solid #000;
+    padding: 5px;
+    background-color: #f3dd66;
+    margin: 20px 30px 35px 30px;
+    
+}
+.fourth{
+    border: 3px dashed #000;
+    padding: 5px;
+    background-color: #8bf384;
+    margin: 20px 30px 35px;
+}
+p{
+    border: 3px solid #000;
+    background-color: #77bdef;
+    padding: 8px 0px;
+    margin: 10px 20px 25px 20px;
+    text-align: center;
+}

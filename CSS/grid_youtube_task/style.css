@@ -1,0 +1,78 @@
+body{
+    display: grid;
+    grid-template-columns: repeat(4,25%);
+    grid-template-areas: "header header header header"
+    "sidebar main main main"
+    "footer footer footer footer";
+    height: 100vh;
+    margin: 20px 20px;
+    font-size: 20px;
+}
+
+.header{
+    grid-area: header;
+ 
+}
+.topbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+input{
+    height: 20px;
+    width: 400px;
+    padding: 6px;
+    font-size: 20px;
+    border-radius: 16px;
+}
+.searchbar{
+    position: relative;
+    right: 270px;
+}
+.profile-section{
+    display: flex;
+    gap: 30px;
+}
+.profile{
+    height: 30px;
+    border-radius: 50%;
+}
+
+.navbar{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+.navbar li{
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 8px;
+}
+.sidebar{
+    grid-area: sidebar;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    height: 90vh;
+    overflow: scroll;
+    width: 18vw;
+    padding-left: 50px;
+    position: fixed;
+    top: 150px;
+}
+.footer{
+    grid-area: footer;
+}
+.main{
+    grid-area: main;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 30px;
+}
+.main div img{
+    border-radius: 12px;
+}

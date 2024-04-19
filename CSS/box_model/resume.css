@@ -1,0 +1,48 @@
+body{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 300px;
+    font-family: "Saira", sans-serif;;
+}
+
+.firstContainer{
+    width: 30%;
+    background-color: #e1dfdf;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+img{
+    border-radius: 50%;  
+}
+hr{
+    width: 50px;
+    border: 2px solid #000;
+    margin:0px;
+}
+
+.secondContainer{
+    width: 70%;
+    padding: 0px 50px;
+}
+h1{
+    font-size: 40px;
+    font-family: "Comfortaa", sans-serif;
+}
+h2{
+    font-family: "Cantarell", sans-serif;
+}
+.secondContainer > hr{
+    width: auto;
+    border: 2px solid #000;
+    margin:0px;
+}
+.secondContainer > h2{
+    font-weight: 500;
+}
+.secondContainer h3,h4{
+    font-weight: 600;
+}
+
+

@@ -1,0 +1,24 @@
+header{
+    background-color:black;
+    color: #fff;
+    text-align: center;
+}
+
+ul li{
+    color: brown;
+}
+section h2{
+    color: palevioletred;
+    font-size: 30px;
+}
+section p{
+    font-style: italic;
+}
+
+footer{
+    background-color: peru;
+}
+section > div{
+    background-color:gray;
+    color: #fff;
+}

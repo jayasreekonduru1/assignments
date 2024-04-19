@@ -1,0 +1,45 @@
+body{
+    margin: 50px;
+}
+@media screen and (max-width: 320px){
+    .container{
+        font-size: 22px;
+        background-color: red;
+        color: #fff;
+        border: 5px solid #000;
+    }
+       
+}
+@media screen and (min-width:321px) and (max-width: 650px){
+    .container{
+        font-size: 32px;
+        background-color: #f4f;
+        color: #fff;
+        border: 5px solid blue;
+    }
+       
+}
+
+@media screen and (min-width:651px) and (max-width: 1050px){
+    .container{
+        font-size: 32px;
+        background-color: rgb(17, 24, 238);
+        color: #000;
+        border: 5px dotted rgb(242, 255, 0);  
+    }     
+}
+@media screen and (min-width:1051px) and (max-width: 1450px){
+    .container{
+        font-size: 32px;
+        background-color: #6b4996;
+        color: #fff;
+        border: 10px dashed #de8d79; 
+    }     
+}
+@media screen and (min-width:1451px){
+    .container{
+        font-size: 42px;
+        background-color: #e0e016;
+        color: #fff;  
+    }     
+}

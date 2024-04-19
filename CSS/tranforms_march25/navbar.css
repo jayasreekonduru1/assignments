@@ -1,0 +1,38 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: #fff;
+    width: 100vw;
+    padding: 20px;
+}
+.right-nav{
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+    gap: 10px;
+}
+.right-nav ul{
+    display: flex;
+    list-style-type: none;
+    gap: 50px;
+}
+.menu-icon{
+    display: none;
+}
+
+ @media screen and (max-width: 1024px){ 
+    .menu-icon{
+        display: block;;
+    }
+    
+    li{
+        display: none;
+    }
+} 

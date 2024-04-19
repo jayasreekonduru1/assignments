@@ -1,0 +1,81 @@
+body{
+    margin:0;
+    overflow: hidden;
+}
+.navbar{
+    background-color: #eef7b2;
+    font-size: 18px;
+    padding: 2px 0px;
+
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+input{
+    padding: 10px 30px;
+    border-radius: 18px;
+    border: none;
+    width: 330px;
+    font-size: 16px;
+}
+button{
+    background-color: #6586e2;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+div{
+    display: flex;
+    
+    
+}
+.leftnavbar{
+    background-color: #333;
+    color: #fff;
+    width: 200px;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 20vw;
+    
+}
+.leftnavbar li{
+    list-style: none;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80vw;
+    background-color:#201d1e;
+    color: #fff;
+    
+}
+section h1{
+    font-size: 50px; 
+}
+section p{
+    font-size: 18px;
+    color: #ead216;
+    
+}
+section input{
+    background-color: #eef7b2;
+    font-size: 18px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+section a{
+    text-decoration: none;
+    color: #351ad0;
+    font-size: 20px;
+}
