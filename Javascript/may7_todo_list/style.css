@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(#aca7a7, #63878f, #98956e);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+.container{
+    background-color: #d5dbe8;
+    width: 500px;
+    height: 400px;
+    margin-top: 40px;
+    padding: 50px;
+    border-radius: 10px;
+}
+.inputContainer{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+.inputContainer input{
+    padding: 10px;
+    width:70%;
+    font-size: 20px;
+    border-radius: 7px;
+    border: none;
+    box-shadow: 4px 4px 4px #707070;
+}
+.inputContainer button{
+    padding: 10px 20px;
+    background-color: #0d77b5;
+    font-size: 20px;
+    border: none;
+    color: #fff;
+    border-radius: 7px;
+}
+#todoLists{
+    margin: 20px;
+    
+}
+.todo-lists{
+    display: flex;
+    flex-direction: column;
+    
+    /* justify-content: center;
+    align-items: center; */
+
+}
+.todo-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    background-color: #383636;
+    padding: 7px 7px 7px 15px;
+    border-radius: 8px;
+
+}
+.todo-list-con{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+.todoItem{
+    font-size: 25px;
+    color: #282324;
+    color:#fff;
+}
+.removeIcon{
+    color: #f5f5f5;
+    width: 50px;
+}
+.editIcon{
+    color: #f5f5f5;
+    width: 50px;
+    margin-left: 150px;
+}

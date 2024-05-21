@@ -1,0 +1,18 @@
+table,th,td{
+    border-collapse: collapse;
+    border: 2px solid #000;
+}
+thead{
+    background-color: blue;
+    padding: 20px;
+}
+tbody{
+    background-color: lightgoldenrodyellow;
+}
+th,td{
+    padding: 10px;
+    font-size: 20px;
+}
+h1{
+    text-align: center;
+}
